@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import HomeSection from './components/home/HomeSection';
 import AboutPage from './pages/AboutPage';
 import ProjectsSection from './components/home/ProjectsSection';
+import ContactSection from './components/home/ContactSection'
 
 
 export default function HomePage() {
@@ -19,6 +20,9 @@ export default function HomePage() {
 
       {/* Projects Section */}
       <ProjectsSection />
+
+      {/* Contact Section */}
+      <ContactSection/>
 
       
     </div>
